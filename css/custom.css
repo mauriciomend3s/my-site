@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'FonteBonita';
+	src: url("../fonts/Roboto-Light.ttf");
+	font-family: 'FonteBonita2';
+	src: url("../fonts/Aspergit.otf");
+}
+
+
+#menu {
+	font-family: 'FonteBonita2', sans-serif;
+	height:80px;
+	
+}
+
+#tam {
+    font-family: 'FonteBonita2', sans-serif;
+    text-align: center;
+	top: 450px;
+	color: #011D40;
+	font-size: 60px;
+
+	
+}
+
+#forma {
+	font-family: 'FonteBonita2', sans-serif;
+    text-align: center;
+	color: #011D40;
+	font-size: 30px;
+}
+
+
+#foto { 	
+text-align: center;
+font-family: 'FonteBonita', sans-serif;
+height: 300px;
+width: 300px;
+}
+
+#imgs {
+	text-align: center;
+	margin-top: -330px;
+	height: 320px;
+	width: 320px;
+}
+#rodape {
+	height: 90px;
+	text-align: center;
+	background-color: #006064;
+	font-size: 25px;
+	font-family: 'FonteBonita2', sans-serif;
+    margin-bottom: -52px;
+    color: white;
+
+}
+#rodape p {
+	padding-top: 20px;
+}
+
+#descricao{
+	color: #006064;
+	font-family: 'FonteBonita2', sans-serif;
+}
+
+#exp {
+	height: 800px;
+}
+
+#experiencia, #habilidade, #hobbie{background: #fbe9e7;}
+
+h2{
+	color: #006064; 
+	font-family: 'FonteBonita2', sans-serif;
+}
+
