@@ -1,472 +1,672 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-	<title>Oi, eu sou o Maurício!</title>
-	<meta charset="utf-8">
 
-	<!--Materialize CSS-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-	<link rel="stylesheet" href="css/custom.css">
-	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <title>Maurício Mendes</title>
+  <meta charset="utf-8">
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+  <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+  <!--Materialize CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body id="top" class="scrollspy">
 
-<div class="navbar-fixed">
-  <nav id="menu" class="cyan darken-4 z-depth-0" role="navigation" style="padding: 0px 30px;" >
+  <div class="navbar-fixed">
+    <nav id="menu" class=" corNavBar" role="navigation" style="padding: 0px 30px;">
 
-    <div class="nav-wrapper">
+      <div >
 
-      <a href="index.html" class="brand-logo">Maurício Mendes</a>
+        <h5 class="brand-logo"><a href="index.html">Maurício Mendes</a></h5>
 
-      <a href="" class="sidenav-trigger" data-target="mobile-nav">
-      	<i class="material-icons">menu</i>
-      </a>
-	<!--menu para desktop-->
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#experiencia">EXPERIÊNCIAS</a></li>
-        <li><a href="#formacao">FORMAÇÃO</a></li>
-        <li><a href="#habilidade">HABILIDADES</a></li>
-        <li><a href="#projeto">PROJETOS</a></li>
-        <li><a href="#hobbie">HOBBIES</a></li>
-      </ul>
-	
+        <a href="" class="sidenav-trigger" data-target="mobile-nav">
+          <i class="material-icons">menu</i>
+        </a>
+        <!--menu para desktop-->
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#experiencia">EXPERIÊNCIAS</a></li>
+          <li><a href="#formacao">FORMAÇÃO</a></li>
+          <li><a href="#habilidade">HABILIDADES</a></li>
+          <li><a href="#projeto">PROJETOS</a></li>
+          <li><a href="#hobbie">HOBBIES</a></li>
+        </ul>
 
-   </div>
-  </nav>
+
+      </div>
+    </nav>
   </div>
 
   </p>
   <!--menu para dispositivos moveis-->
-  	<ul class="sidenav" id="mobile-nav">
-        <li><a href="#experiencia">EXPERIÊNCIAS</a></li>
-        <li><a href="#formacao">FORMAÇÃO</a></li>
-        <li><a href="#habilidade">HABILIDADES</a></li>
-        <li><a href="#projeto">PROJETOS</a></li>
-        <li><a href="#hobbie">HOBBIES</a></li>
-      </ul>
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="#experiencia">EXPERIÊNCIAS</a></li>
+    <li><a href="#formacao">FORMAÇÃO</a></li>
+    <li><a href="#habilidade">HABILIDADES</a></li>
+    <li><a href="#projeto">PROJETOS</a></li>
+    <li><a href="#hobbie">HOBBIES</a></li>
+  </ul>
 
 
-	<!-------BANNER------->
-  <div ><!-------1------->
-		<img src="img/ia.png"  class="responsive-img">
-
-		<!-------<img src="img/eu.jpeg" class="responsive-img">------->		
-  </div><!-------1------->
-
-
-
-<div id="imgs" class="container">
-          <img src="img/eu.jpeg"  class="responsive-img circle">
+  <!-------BANNER------->
+  <!-- <div style="width:100%;">
+      <img id="img1" src="img/ia.png" style="max-width:100%;" />
   </div>
 
+  </div>-->
 
-    <!-------quem sou eu------->
-
-    <div id="descricao" class="row">
-    	<div class="col s12 white"><h2 id="tam">Oi ! Eu sou o Maurício!</h2>
-			<p id="forma">Sou graduando em Engenharia de Software na Universidade Católica do Salvador, atualmente estou no 5 semestre. Além de estudar programação e as metodologias que a envolvem, costumo me aventurar na área da eletrônica e da robótica. Sou <a href=http://futura.org.br/trilhas-do-conhecimento/o-que-e-a-cultura-maker-e-o-que-ela-tem-a-ver-com-a-educacao/#1"  target="_blank">Maker </a> desde sempre, criar algo sempre é uma aventura.  </p></div>
-
-
-
-
-    </div>
-
-<!--section experiencias-->
-<div id="experiencia" class="section scrollspy">
-  <div class="container">
-
-    <h2 class="header text_b"><br/>Experiências</h2>
-    <div exp="exp">
-
-    <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">02/12/2013 - 30/11/2014</span>
-          <p>JMH GRÁFICA E EDITORA LTDA-ME</p>
-          <p><b>Área de atuação:</b> Arte finalista<br/>
-Atividades: Criação de material gráfico: Cartaz, panfleto, convite, portfólio, encadernado, impressão lazer e etc.</p>
-        </div>
-        <div class="card-action">
-         
-        </div>
-      </div>
-    </div>
-  
-
-  
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">01/10/2015 - 31/03/2016</span>
-          <p>BAIANO FOTOGRAFIA</p>
-          <p><b>Área de atuação:</b> Designer<br/>
-Atividades: Diagramação de álbuns, criação de material gráfico, restauração e tratamento de fotos.</p>
-        </div>
-        <div class="card-action">
-         
-        </div>
-      </div>
-    </div>
-  </div>
-
-   </div>
-
-</div>
-
-</div>
-<!--section experiencia-->
-
-<!--section formacao-->
-<div id="formacao" class="section scrollspy">
-  <div class="container">
-    <h2 class="header text_b"><br/>Formação</h2>
-    <div exp="exp">
-
-    <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Situação: CONCLUÍDO</span>
-          <p>SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL</p>
-          <p><b> TÉCNICO EM COMUNICAÇÃO VISUAL: </b> O Curso Técnico de Comunicação Visual tem por objetivo habilitar profissionais para desenvolver comunicação visual para mídias impressas e digitais, seguindo legislações referentes a direitos autorais, uso de imagens, marcas e patentes, acessibilidade e sustentabilidade.
-</p>
-        </div>
-        <div class="card-action">
-         
-        </div>
-      </div>
-    </div>
-  
-  <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Situação: CURSANDO</span>
-          <p>UNIVERSIDADE CATÓLICA DO SALVADOR</p>
-          <p><b> ENGENHARIA DE SOFTWARE: </b>O curso de Bacharelado em Engenharia de Software oferece uma visão ampla de novos métodos e técnicas que possibilitam o desenvolvimento de softwares mais confiáveis, de melhor qualidade, com custo reduzido e alta produtividade, permitindo ao Bacharel em Engenharia de Software visualizar como a tecnologia pode amplificar a estratégia das organizações. 
-</p>
-        </div>
-        <div class="card-action">
-         
-        </div>
-      </div>
-    </div>
-
-  
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">CURSOS</span>
-         <p>Manutenção em computadores - <b>CONTROL NEWS</b> - 40 h.</p>
-          <p>HTML5 - <b>UDEMY</b> - 4h.</p>
-          <p>Git e Github para iniciantes - <b>UDEMY</b> - 2 h.</p>
-          <p>Android Studio Básico - <b>UDEMY</b> - 7,5 h.</p>
-          <p>Programação Android - <b>SENAC</b> - 60 h.</p>
-          <p>PHP Básico - <b>CURSO EM VÍDEO</b> - 8 h.</p>
- 
-      </div>
-        <div class="card-action">
-         
-
-        
-      </div>
-    </div>
-    </div>
-
- <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">PALESTRAS</span>
-
-          <p><b>UCSAL: </b>Tecnologia e Inovação como ferramenta de diferencial competitivo empresarial.</p>
-          <p><b>UCSAL: </b>BOAS PRÁTICAS - O mercado do século XXI conceitos, tendências e carreiras.</p>
-          <p><b>UCSAL: </b>A importância das micro e pequenas empresas no cenário brasileiro.</p>
-          <p><b>UCSAL: </b>PHPeste evento sobre a linguagem web PHP.</p>
-        </div>
-        <div class="card-action">
-         
-        </div>
-        </div>
-      </div>
-    
-
-  </div>
-
-   </div>
-
-</div>
-</div>
-<!--section formacao-->
-
-
-<!--section habilidades-->
-<div id="habilidade" class="section scrollspy">
-  <div class="container">
-    <h2 class="header text_b"><br/>Habilidades</h2>
-    <h5>Vetores (interfaces e ilustrações).</h>
-    
-    <div exp="exp">
-
-    <div class="carousel carousel-slider center">
-   
-    <div class="carousel-item blue-grey darken-1 white-text" href="#one!"><img src="img/rift.png">
-      
-      <h2>First Panel</h2>
-      <p class="white-text">This is your first panel</p>
-    </div>
-    <div class="carousel-item blue-grey darken-1 white-text" href="#two!"><img src="img/Projetolocomotiva.png">
-      <h2>Second Panel</h2>
-      <p class="red-text">This is your second panel</p><img src="img/deskinstop.png">
-    </div>
-    <div class="carousel-item blue-grey darken-1 white-text" href="#three!"><img src="img/ivy.png">
-      <h2>Third Panel</h2>
-      <p class="white-text">This is your third panel</p><img src="img/pepadores.png">
-    </div>
-    <div class="carousel-item blue-grey darken-1 white-text" href="#four!"><img src="img/punk.png">
-      <h2>Fourth Panel</h2>
-      <p class="white-text">This is your fourth panel</p>
-    </div>
-    <div class="carousel-item blue-grey darken-1 white-text" href="#five!"><img src="img/teladejogin.png">
-      <h2>Fourth Panel</h2>
-      <p class="white-text">This is your fourth panel</p>
-    </div>
-    <div class="carousel-item blue-grey darken-1 white-text" href="#six!"><img src="img/am.png">
-      <h2>Fourth Panel</h2>
-      <p class="white-text">This is your fourth panel</p>
-    </div>
-
-
-  </div>
-        
-         
-        </div>
-<div class="row">
-        <div class="col s12 m4 l4 container">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title"></span>
-        <div class="card-action">
-     <h6>HTML5</h6>   
-     <div class="progress">
-      <div class="determinate" style="width: 40%"></div>
-  </div>
-
-  <h6>CSS</h6>   
-     <div class="progress">
-      <div class="determinate" style="width: 40%"></div>
-  </div>
-
-  <h6>MATERIALIZE(Framework)</h6>   
-     <div class="progress">
-      <div class="determinate" style="width: 40%"></div>
-  </div> 
-        </div>
-        </div>
-      </div>
-    </div>
-
-
-<div class="col s12 m4 l4 container">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title"></span>
-        <div class="card-action">
-     <h6>JAVA</h6>   
-     <div class="progress">
-      <div class="determinate" style="width: 40%"></div>
-  </div>
-
-  <h6>PHP</h6>   
-     <div class="progress">
-      <div class="determinate" style="width: 20%"></div>
-  </div>
-
-  <h6>JQUERY</h6>   
-     <div class="progress">
-      <div class="determinate" style="width: 10%"></div>
-  </div> 
-        </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col s12 m4 l4 container">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title"></span>
-        <div class="card-action">
-     <h6>PHOTOSHOP</h6>   
-     <div class="progress">
-      <div class="determinate" style="width: 40%"></div>
-  </div>
-
-  <h6>ILLUSTRATOR</h6>   
-     <div class="progress">
-      <div class="determinate" style="width: 40%"></div>
-  </div>
-
-  <h6>CORELDRAW</h6>   
-     <div class="progress">
-      <div class="determinate" style="width: 40%"></div>
-  </div> 
-        </div>
-        </div>
-      </div>
-    </div>
-
-    </div>
-
-      </div>
-    </div>  
-    
- 
-<!--section habilidades-->
-
-<!--section projetos-->
-<div id="projeto" class="section scrollspy">
-  <div class="container">
-    <h2 class="header text_b"><br/>Projetos</h2>
-    <div exp="exp">
-
-   
-   </div>
-
-</div>
-<div class="col s12 m6 container">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title"></span>
-        </div>
-        <div class="row">
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/cobra1.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">SnakeRobot<i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="https://mcgyvertronics.github.io/web/">SnakeRobot</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">SnakeRobot<i class="mdi-navigation-close right"></i></span>
-                        <p>Como soteropolitanos que somos, convivemos nos períodos de chuva em Salvador com as notícias de deslizamentos e desmoronamentos, onde os bombeiros realizam resgates com toda técnica possível e tentando encontrar o maior número de sobreviventes possível. Outra situação é com relação a inspeção de dutos, minas e até áreas com radiação, onde se evitar a presença do homem em loco seria altamente desejável.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/mao1.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Mão Robótica<i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="https://mcgyvertronics.github.io/web/">Mão Robótica</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Mão Robótica<i class="mdi-navigation-close right"></i></span>
-                        <p>No dia-a-dia, convimemos com a diversidade e com muitas pessoas com dificuldades de locomoção, e(ou) com alguma deficiência. Baseado nessa premissa, pensamos em como incluir essas pessoas, possibilitando uma maior acessibilidade. Nosso ponta a pé inicial é a pesquisa e desenvolvimento de uma mão robótica humanóide, com funcionalidades similares a um membro real.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/roboinsp1.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Robô Inspeção <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="https://mcgyvertronics.github.io/web/">Robô Inspeção</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Robô Inspeção<i class="mdi-navigation-close right"></i></span>
-                        <p>Destinado inicialmente a inspeção em dutos e minas, esse robô com rodas vai ser equipado com esteira e enviar imagens e dados de dutos de difícil acesso, controlado de forma remota, preservando o trabalhador em eventual exposição a locais insalubres para inspeção. Em fase de pesquisa e desenvolvimento.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card-action">
-         
-        </div>
-        </div>
-      </div>
-
-</div>
-
-
-<!--section projetos-->
-   
-<!--section hobbies-->
-<div id="hobbie" class="section scrollspy">
+  <section class="jumbotron text-center corBanner">
     <div class="container">
-      <h2>Hobbies</h2>
-        <div class="row">
-        
-            <div  class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i><img src="img/maker.png"></i>
-                    <h5 class="promo-caption">Faça você mesmo!</h5>
-                    <p class="light center">Entusiasta da cultura maker mesmo antes de saber que ela existia.</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i><img src="img/corrida.png"></i>
-                    <h5 class="promo-caption">Corrida!</h5>
-                    <p class="light center">O tempo passa rápido, então corra, exercite-se.</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i><img src="img/bask.png"></i>
-                    <h5 class="promo-caption">Cesta!</h5>
-                    <p class="light center">"O basquetebol antes de mais nada deve ser divertido"(Larry Joe Bird) A programação também!</p>
-                </div>
-            </div>
-        </div>
+      <img src="img/eu.jpeg" class="responsive-img foto-perfil">
+      <h1 class="jumbotron-heading fontUser" style="color:white;text-transform: uppercase;">Maurício Mendes</h1>
+      <p class="lead" style="color:white !important;">Desenvolvedor de Software | Designer | Ilustrador
+      </p>
+      <p>
+        <a href="#contato" class="btn buttonRed my-2">Contato</a>
+      </p>
+      <a href="https://github.com/mauriciomend3s?tab=repositories" target="_blank"" target="_blank"><i style="color:white" class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/maur%C3%ADcio-mendes-da-silva-b9855912a/" target="_blank"><i style="color:white" class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/mauriciomend3s?tab=repositories" target="_blank"><i style="color:white" class="fab fa-instagram"></i></a>
     </div>
-</div>
-<!--section hobbies-->
+  </section>
+
+  <!--section projetos-->
+  <div id="projeto" class="section scrollspy">
+    <div class="container">
+      <h2 class="header text_b"><br />Projetos</h2>
+      <div exp="exp">
 
 
-          <div id="rodape">
+      </div>
+
+    </div>
+    <div class="col s12 m6 container">
+      <!-------<div class="card corBanner">-->
+      <div class="card-content white-text">
+        <span class="card-title"></span>
+      </div>
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/cobra1.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">SnakeRobot<i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p><a href="https://mcgyvertronics.github.io/web/" target="_blank">SnakeRobot</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">SnakeRobot<i
+                  class="mdi-navigation-close right"></i></span>
+              <p>Como soteropolitanos que somos, convivemos nos períodos de chuva em Salvador com as notícias de
+                deslizamentos e desmoronamentos, onde os bombeiros realizam resgates com toda técnica possível e
+                tentando encontrar o maior número de sobreviventes possível. Outra situação é com relação a inspeção
+                de dutos, minas e até áreas com radiação, onde se evitar a presença do homem em loco seria altamente
+                desejável.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/mao1.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Mão Robótica<i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p><a href="https://mcgyvertronics.github.io/web/" target="_blank">Mão Robótica</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Mão Robótica<i
+                  class="mdi-navigation-close right"></i></span>
+              <p>No dia-a-dia, convimemos com a diversidade e com muitas pessoas com dificuldades de locomoção, e(ou)
+                com alguma deficiência. Baseado nessa premissa, pensamos em como incluir essas pessoas, possibilitando
+                uma maior acessibilidade. Nosso ponta a pé inicial é a pesquisa e desenvolvimento de uma mão robótica
+                humanóide, com funcionalidades similares a um membro real.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/roboinsp1.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Robô Inspeção <i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p><a href="https://mcgyvertronics.github.io/web/" target="_blank">Robô Inspeção</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Robô Inspeção<i
+                  class="mdi-navigation-close right"></i></span>
+              <p>Destinado inicialmente a inspeção em dutos e minas, esse robô com rodas vai ser equipado com esteira
+                e enviar imagens e dados de dutos de difícil acesso, controlado de forma remota, preservando o
+                trabalhador em eventual exposição a locais insalubres para inspeção. Em fase de pesquisa e
+                desenvolvimento.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-action">
+
+      </div>
+
+    </div>
+
+    <!---->
+    <!---->
+
+    <div class="col s12 m6 container">
+      <!-------<div class="card corBanner">-->
+      <div class="card-content white-text">
+        <span class="card-title"></span>
+      </div>
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/divulgaTudo.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Divulga Tudo<i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p><a href="https://github.com/mauriciomend3s/divulgatudo/tree/master" target="_blank">Divulga Tudo</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Divulga Tudo<i
+                  class="mdi-navigation-close right"></i></span>
+              <p>Projeto Web criado para concurso da empresa Capgemini. A Aplicação Web faz uma projeção de cliques,
+                compartilhamentos
+                e visualizações com base em um valor em reais investido. </p>
+              <p>Tecnologias Utilizadas:<b> Java, Springboot, Thymeleaf, Bootstrap.</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/dsVendas.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Ds Vendas<i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p><a href="https://gerenciadordevendas.netlify.app/" target="_blank">Ds Vendas</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Ds Vendas<i
+                  class="mdi-navigation-close right"></i></span>
+              <p>O Ds Vendas é uma aplicação que mostra em um dashboard atravás de gráficos e paginação dados consumidos
+                de uma API. O front-end foi hospedado no netlify e o back-end no heroku.</p>
+              <p>Tecnologias Utilizadas:<b> Java, Springboot, React, Bootstrap.</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/sono.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Sonorum<i
+                  class="mdi-navigation-more-vert right"></i></span>
+                  <p><a href="https://play.google.com/store/apps/details?id=com.mm.sonorum" target="_blank">Sonorum</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Sonorum<i
+                  class="mdi-navigation-close right"></i></span>
+              <p>Aplicativo de humor que consiste em disparar um audio de sons da natureza, objetos e cultura pop. Dowload disponível na PlayStore: <a href="https://play.google.com/store/apps/details?id=com.mm.sonorum" target="_blank">https://play.google.com/store/apps/details?id=com.mm.sonorum</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-action">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-------quem sou eu------->
+
+  <div id="sobreMim" class="section scrollspy">
+    <div class="container">
+      <div class="col s12">
+        <h2 class="header text_b white-text"><br />Sobre Mim</h2>
+        <p id="forma" class="white-text">Sou graduando em Engenharia de Software na Universidade Católica do Salvador, atualmente estou no
+          7° semestre, já estagiei como Analista de Sistemas e nas horas vagas sempre estou fazendo algum projeto pessoal. Sou apaixonado 
+          por Robótica, Design, Inteligência Artificial e Realidade Aumentada.
+             </p>
+      </div>
+    </div>
+  </div>
+
+
+  <!--section experiencias-->
+  <div id="experiencia" class="section scrollspy">
+    <div class="container">
+
+      <h2 class="header text_b"><br />Experiências</h2>
+      <div exp="exp">
+
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title sizeFont">02/12/2013 30/11/2014</span>
+                <p>JMH GRÁFICA E EDITORA</p>
+                <p><b>Área de atuação:</b> Designer<br />
+                  <br/>
+                  <b>Atividades:</b> Criação de material gráfico: Cartaz, panfleto, convite, portfólio, encadernado, impressão
+                  lazer e etc.</p>
+              </div>
+              <div class="card-action">
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">01/10/2015 31/03/2016</span>
+                <p>BAIANO FOTOGRAFIA</p>
+                <br/>
+                <p><b>Área de atuação:</b> Designer<br />
+                  <br/>
+                  <b>Atividades:</b> Diagramação de álbuns, criação de material gráfico, restauração e tratamento de fotos.</p>
+                  
+              </div>
+              <div class="card-action">
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">07/01/2019 07/06/2019</span>
+                <p>TELEVISÃO BAHIA S.A</p>
+                <br/>
+                <p><b>Área de atuação:</b> Estagiário - Análise de Sistemas<br />
+                  
+                  <b>Atividades:</b> Manutenção dos Sistemas Corporativos, 
+                  ajustes e construção de rotinas em Js, C# e Sql, 
+                  entendimento e observação dos padrões de desenvolvimento.</p>
+                  <br/>
+            <br/>
+              </div>
+              <div class="card-action">
+
+              </div>
+            </div>
             
-            <p>© 2018 Copyright - Maurício Mendes</p>
-            
+          </div>
+
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">18/05/2020 18/05/2021</span>
+                <p>SOTERO AMBIENTAL</p>
+                <br/>
+                <p><b>Área de atuação:</b> Estagiário - Controle Operacional<br />
+                  
+                  <b>Atividades:</b> Levantamento de indicadores, utilização do pacote office para criação de planilhas documentos e elaboração de material
+                  gráfico, fechamento de boletins de medição de gastos, gravação e edição de vídeos.</p>
+              </div>
+              <div class="card-action">
+
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!--section experiencia-->
+
+  <!--section formacao-->
+  <div id="formacao" class="section scrollspy">
+    <div class="container">
+      <h2 class="header text_b  white-text"><br />Formação</h2>
+      <div exp="exp">
+
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">CONCLUÍDO</span>
+                <p>SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL</p>
+                <p><b> TÉCNICO EM COMUNICAÇÃO VISUAL: </b> O Curso Técnico de Comunicação Visual tem por objetivo
+                  habilitar profissionais para desenvolver comunicação visual para mídias impressas e digitais, seguindo
+                  legislações referentes a direitos autorais, uso de imagens, marcas e patentes, acessibilidade e
+                  sustentabilidade.
+                </p>
+              </div>
+              <div class="card-action">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">CURSANDO</span>
+                <p>UNIVERSIDADE CATÓLICA DO SALVADOR</p>
+                <p><b> ENGENHARIA DE SOFTWARE: </b>O curso de Bacharelado em Engenharia de Software oferece uma visão
+                  ampla de novos métodos e técnicas que possibilitam o desenvolvimento de softwares mais confiáveis, de
+                  melhor qualidade, com custo reduzido e alta produtividade.
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                </p>
+              </div>
+              <div class="card-action">
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">CURSOS</span>
+                <p>Manutenção em computadores - <b>CONTROL NEWS</b> - 40 h.</p>
+                <p>HTML5 - <b>UDEMY</b> - 4h.</p>
+                <p>Git e Github para iniciantes - <b>UDEMY</b> - 2 h.</p>
+                <p>Android Studio Básico - <b>UDEMY</b> - 7,5 h.</p>
+                <p>Programação Android - <b>SENAC</b> - 60 h.</p>
+                <p>PHP Básico - <b>CURSO EM VÍDEO</b> - 8 h.</p>
+                <br/>
+                <br/>
+                <br/>
+              </div>
+              <div class="card-action">
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">PALESTRAS</span>
+
+                <p><b>UCSAL: </b>Tecnologia e Inovação como ferramenta de diferencial competitivo empresarial.</p>
+                <p><b>UCSAL: </b>BOAS PRÁTICAS - O mercado do século XXI conceitos, tendências e carreiras.</p>
+                <p><b>UCSAL: </b>A importância das micro e pequenas empresas no cenário brasileiro.</p>
+                <p><b>UCSAL: </b>PHPeste evento sobre a linguagem web PHP.</p>
+              </div>
+              <div class="card-action">
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!--section formacao-->
+
+
+  <!--section habilidades-->
+  <div id="habilidade" class="section scrollspy">
+    <div class="container">
+      <h2 class="header text_b"><br />Habilidades</h2>
+      <h5>Vetores (interfaces e ilustrações).</h>
+
+        <div exp="exp">
+
+          <div class="carousel carousel-slider center">
+
+            <div class="carousel-item blue-grey darken-1 white-text" href="#rift!"><img src="img/rift.png">
+
+              <!--<h2>First Panel</h2>-->
+              <!--<p class="white-text">This is your first panel</p>-->
+            </div>
+            <!--d-->
+            <div class="carousel-item blue-grey darken-1 white-text" href="#Projetolocomotiva!"><img
+                src="img/Projetolocomotiva.png">
+              <!--  <h2>Second Panel</h2>-->
+              <!--  <p class="red-text">This is your second panel</p>-->
+            </div>
+            <!--d-->
+            <div class="carousel-item blue-grey darken-1 white-text" href="#deskinstop!"><img src="img/deskinstop.png">
+              <!--  <h2>Second Panel</h2>
+      <p class="red-text">This is your second panel</p>-->
+            </div>
+            <!--d-->
+            <div class="carousel-item blue-grey darken-1 white-text" href="#ivy!"><img src="img/ivy.png">
+              <!--<h2>Third Panel</h2>-->
+              <!--<p class="white-text">This is your third panel</p>-->
+            </div>
+            <!--d-->
+            <div class="carousel-item blue-grey darken-1 white-text" href="#pepadores!"><img src="img/pepadores.png">
+              <!--<h2>Third Panel</h2>-->
+              <!--<p class="white-text">This is your third panel</p>-->
+            </div>
+            <!--d-->
+            <div class="carousel-item blue-grey darken-1 white-text" href="#punk"><img src="img/bannersonorum.jpg">
+              <!--<h2>Fourth Panel</h2>-->
+              <!--<p class="white-text">This is your fourth panel</p>-->
+            </div>
+            <!--d-->
+            <div class="carousel-item blue-grey darken-1 white-text" href="#teladejogin!"><img
+                src="img/teladejogin.png">
+              <!--<h2>Fourth Panel</h2>-->
+              <!--<p class="white-text">This is your fourth panel</p>-->
+            </div>
+            <!--d-->
+            <div class="carousel-item blue-grey darken-1 white-text" href="#am!"><img src="img/am.png">
+              <!--<h2>Fourth Panel</h2>-->
+              <!--<p class="white-text">This is your fourth panel</p>-->
+            </div>
+            <!--d-->
 
           </div>
-        
-            
-         
-        
-            
 
 
-<!--Jquery-->
-<script
-			  src="https://code.jquery.com/jquery-3.3.1.js"
-			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-			  crossorigin="anonymous"></script>
-<!--Materialize JS-->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        </div>
+        <div class="row">
+          <div class="col s12 m4 l4 container">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title"></span>
+                <div class="card-action">
+                  <h6>HTML5</h6>
+                  <div class="progress">
+                    <div class="determinate" style="width: 40%"></div>
+                  </div>
 
-<script> 
-	//menu mobile
-	$(document).ready(function(){
-		$('.sidenav').sidenav();
-	});
-         
-</script>﻿
+                  <h6>CSS</h6>
+                  <div class="progress">
+                    <div class="determinate" style="width: 40%"></div>
+                  </div>
+
+                  <h6>MATERIALIZE(Framework)</h6>
+                  <div class="progress">
+                    <div class="determinate" style="width: 40%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
-<script>
-  $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
-  });
+          <div class="col s12 m4 l4 container">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title"></span>
+                <div class="card-action">
+                  <h6>JAVA</h6>
+                  <div class="progress">
+                    <div class="determinate" style="width: 40%"></div>
+                  </div>
 
-</script>
+                  <h6>PHP</h6>
+                  <div class="progress">
+                    <div class="determinate" style="width: 20%"></div>
+                  </div>
+
+                  <h6>JQUERY</h6>
+                  <div class="progress">
+                    <div class="determinate" style="width: 10%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l4 container">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title"></span>
+                <div class="card-action">
+                  <h6>PHOTOSHOP</h6>
+                  <div class="progress">
+                    <div class="determinate" style="width: 40%"></div>
+                  </div>
+
+                  <h6>ILLUSTRATOR</h6>
+                  <div class="progress">
+                    <div class="determinate" style="width: 40%"></div>
+                  </div>
+
+                  <h6>CORELDRAW</h6>
+                  <div class="progress">
+                    <div class="determinate" style="width: 40%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+  </div>
+
+
+  <!--section habilidades-->
+
+
+
+
+  <!--section projetos-->
+
+  <!--section hobbies-->
+  <div id="hobbie" class="section scrollspy">
+    <div class="container">
+      <h2 class="white-text">Hobbies</h2>
+      <div class="row">
+
+        <div class="col s12 m4 l4">
+          <div class="center promo promo-example">
+            <i><img src="img/maker.png"></i>
+            <h5 class="promo-caption">Faça você mesmo!</h5>
+            <p class="light center">Entusiasta da cultura maker mesmo antes de saber que ela existia.</p>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="center promo promo-example">
+            <i><img src="img/corrida.png"></i>
+            <h5 class="promo-caption">Corrida!</h5>
+            <p class="light center">O tempo passa rápido, então corra, exercite-se.</p>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="center promo promo-example">
+            <i><img src="img/bask.png"></i>
+            <h5 class="promo-caption">Cesta!</h5>
+            <p class="light center">"O basquetebol antes de mais nada deve ser divertido"(Larry Joe Bird) A programação
+              também!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--section hobbies-->
+
+  <section Id="contato">
+    <div class="corPrimaria">
+      <div class="container-fluid">
+        <h3 style="padding-top:90px;" class="text-center titulosBrancos">Disponível para oportunidades</h3>
+        <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a
+            href="mailto:mauricio.mend3s@gmail.com">mauricio.mend3s@gmail.com👈</a></h4>
+      </div>
+    </div>
+  </section>
+
+
+  <div id="rodape">
+
+    <p>© 2021 Copyright - Maurício Mendes</p>
+
+
+  </div>
+
+
+
+
+
+
+
+  <!--Jquery-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <!--Materialize JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    //menu mobile
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    });
+
+  </script>﻿
+
+
+  <script>
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      indicators: true
+    });
+
+  </script>
 
 </body>
+
 </html>
